@@ -6,7 +6,7 @@
 /*   By: adiouane <adiouane@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/29 19:23:19 by adiouane          #+#    #+#             */
-/*   Updated: 2022/12/03 21:03:36 by adiouane         ###   ########.fr       */
+/*   Updated: 2022/12/05 17:20:21 by adiouane         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -58,4 +58,5 @@ void    Phonebook::add_contact()
     }
     if (this->full == 1)
       this->index = 0;
+
 }

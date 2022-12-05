@@ -6,7 +6,7 @@
 /*   By: adiouane <adiouane@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/09/27 03:24:45 by adiouane          #+#    #+#             */
-/*   Updated: 2022/12/03 21:06:17 by adiouane         ###   ########.fr       */
+/*   Updated: 2022/12/03 23:12:05 by adiouane         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,12 +14,13 @@
 
 // CONSTRACTOR
 
-// shearch why we can use constructor and why not 
 Phonebook::Phonebook()
 {
     this->index = 0;
     this->full = 0;
 }
+
+// DESTRUCTOR
 
 Phonebook::~Phonebook()
 {
@@ -36,7 +37,7 @@ Contact::~Contact()
 // SETTERS
 
 /*
-    using seter function to set the value of the private variables
+    we used seter function to set the value of the private variables
 */
 
 void    Contact::set_first_name(std::string f){
@@ -62,7 +63,7 @@ void    Contact::set_darkest_secret(std::string d){
 // GETTER
 
 /*
-    using geter function to get the private data of the class 
+    we used geter function to get the private data of the class 
 */
 
 std::string Contact::get_darkest_secret() {
@@ -81,7 +82,6 @@ std::string Contact::get_first_name() {
     return first_name;
 }
 
-// ADD CONTACTS TO PHONEBOOK
 
 int main(int ac, char **av)
 {
